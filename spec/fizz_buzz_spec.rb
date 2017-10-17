@@ -18,4 +18,9 @@ describe 'fizz_buzz' do
   it "returns 'fizz buzz' if number is divisible by 15" do
     expect(fizz_buzz(30)).to eq 'fizz buzz'
   end
+
+  it "returns 'Do not give me any negative numbers. Thanks' if number is negative" do
+   expect(fizz_buzz(-1)).to eq 'Do not give me any negative numbers. Thanks'
+ end
+
 end
