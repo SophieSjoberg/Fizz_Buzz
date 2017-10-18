@@ -7,15 +7,16 @@ Our assignement was to write a program, Fizz_Buzz, that takes a number or an arr
 I added `rspec` to Gemfile and ran `$ bundle install`
 
 ## How to use application
-Put `fizz_buzz("any number divisible by 3")`` returns 'fizz'
+Put
+    `fizz_buzz("any number divisible by 3")` returns 'fizz'
 
-    `fizz_buzz("any number divisible by 5")`` returns 'buzz'
+    `fizz_buzz("any number divisible by 5")` returns 'buzz'
 
-    `fizz_buzz("any number divisible by 15")`` returns 'fizz buzz'
+    `fizz_buzz("any number divisible by 15")` returns 'fizz buzz'
 
-    `fizz_buzz("a number NOT divisible by 3, 5, 15")`` returns number
+    `fizz_buzz("a number NOT divisible by 3, 5, 15")` returns number
 
-    `fizz_buzz("a negative number")`` returns 'Do not give me any negative numbers. Thanks'.
+    `fizz_buzz("a negative number")` returns 'Do not give me any negative numbers. Thanks'.
 
 ## Resources
 CodeAcademy prepcourse material.
