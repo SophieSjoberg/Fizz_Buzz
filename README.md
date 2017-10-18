@@ -8,6 +8,8 @@ I added `rspec` to Gemfile and ran `$ bundle install`
 
 ## How to use application
 Put
+
+
 `fizz_buzz("any number divisible by 3")` returns "fizz"
 
 
