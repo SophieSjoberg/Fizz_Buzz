@@ -1,6 +1,9 @@
 def fizz_buzz(number)
 
-  if has_zero_remainder?(number, 15)
+  if  !number.is_a? Integer or number < 0
+    'NO.NO.NO'
+    
+  elsif has_zero_remainder?(number, 15)
     'fizz buzz'
 
   elsif has_zero_remainder?(number, 5)
@@ -8,9 +11,6 @@ def fizz_buzz(number)
 
   elsif has_zero_remainder?(number, 3)
     'fizz'
-
-  elsif number < 0
-    'Do not give me any negative numbers. Thanks'
 
   else
     number

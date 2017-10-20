@@ -19,8 +19,8 @@ describe 'fizz_buzz' do
     expect(fizz_buzz(30)).to eq 'fizz buzz'
   end
 
-  it "returns 'Do not give me any negative numbers. Thanks' if number is negative" do
-   expect(fizz_buzz(-1)).to eq 'Do not give me any negative numbers. Thanks'
+  it "returns 'NO.NO.NO' if number is negative" do
+   expect(fizz_buzz(-1)).to eq 'NO.NO.NO'
  end
 
 end
